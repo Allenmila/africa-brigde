@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Africa Bridge Logistics | Shipping from the U.S. to Ghana &amp; Beyond</title>
+<meta name="description" content="Barrels, boxes, vehicles and commercial cargo shipped from the U.S. to Ghana and across Africa. Get a free quote today.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#081a44;--navy2:#0f2a66;--gold:#e0ac3c;--gold2:#f5cd6b;--bg:#f4f6fb;--card:#fff;--text:#16203a;--muted:#5a6580;--line:#e1e6f0;--head:"Sora","Segoe UI",Arial,sans-serif;--body:"DM Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;--navy-text:var(--navy);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#060f26;--card:#0e1b3d;--text:#e9edf7;--muted:#9fabc6;--line:#1f3059;--navy-text:#fff;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#060f26;--card:#0e1b3d;--text:#e9edf7;--muted:#9fabc6;--line:#1f3059;--navy-text:#fff;color-scheme:dark}
+*{box-sizing:border-box}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--text);font:400 1.05rem/1.65 var(--body);overflow-x:hidden}
+a{color:inherit}svg{max-width:100%}
+.i{width:1.25em;height:1.25em;flex:none;vertical-align:middle}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{width:min(1180px,100% - 2.5rem);margin-inline:auto}
+h1,h2,h3{font-family:var(--head);margin:0;line-height:1.1}
+h2{font-size:clamp(1.9rem,4.5vw,3rem);color:var(--navy-text);letter-spacing:-.02em}
+.lead{color:var(--muted);max-width:58ch}
+section{padding:clamp(4rem,9vw,7rem) 0;position:relative}
+.sh{max-width:640px;margin-bottom:2.5rem}
+.sh p{color:var(--muted);margin:.8rem 0 0}
+#prog{position:fixed;inset:0 auto auto 0;height:3px;width:0;background:linear-gradient(90deg,var(--gold),var(--gold2));z-index:60}
+
+header{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .3s,box-shadow .3s;padding-top:env(safe-area-inset-top,0px)}
+header.s{background:rgba(8,26,68,.92);backdrop-filter:blur(12px);box-shadow:0 6px 24px #0004}
+.bar{display:flex;align-items:center;justify-content:space-between;height:74px;gap:1rem;color:#fff}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;font:800 1.2rem/1 var(--head)}
+.brand small{display:block;font:600 .62rem var(--body);letter-spacing:.38em;color:var(--gold);margin-top:.25rem}
+.mark{width:42px;height:42px}
+nav ul{display:flex;gap:1.8rem;list-style:none;margin:0;padding:0;align-items:center}
+nav a{text-decoration:none;font-weight:500;font-size:.97rem;opacity:.9}
+nav a:not(.btn):hover{color:var(--gold);opacity:1}
+.btn{display:inline-flex;align-items:center;gap:.5rem;background:linear-gradient(135deg,var(--gold),var(--gold2));color:#1a1405;font:600 1rem var(--body);text-decoration:none;padding:.85rem 1.5rem;border-radius:999px;border:0;cursor:pointer;transition:transform .2s,box-shadow .2s;box-shadow:0 8px 24px #e0ac3c40}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px #e0ac3c66}
+.btn.ghost{background:transparent;color:#fff;border:1.5px solid #ffffff70;box-shadow:none}
+.btn.ghost:hover{border-color:var(--gold);color:var(--gold)}
+nav .btn{padding:.6rem 1.15rem}
+.menu{display:none;background:#ffffff14;border:1px solid #ffffff40;color:#fff;border-radius:10px;width:44px;height:44px;place-items:center;font-size:1.4rem;cursor:pointer}
+@media (max-width:900px){
+ .menu{display:grid}
+ nav{position:absolute;left:0;right:0;top:100%;background:rgba(8,26,68,.97);backdrop-filter:blur(12px);max-height:0;overflow:hidden;transition:max-height .4s}
+ nav.open{max-height:420px}
+ nav ul{flex-direction:column;align-items:stretch;gap:0;padding:.5rem 1.25rem 1.4rem}
+ nav li a:not(.btn){display:block;padding:.9rem 0;border-bottom:1px solid #ffffff1c}
+ nav .btn{justify-content:center;margin-top:1rem}
+}
+
+/* hero */
+.hero{background:radial-gradient(circle at 80% 20%,var(--navy2),var(--navy) 60%);color:#fff;padding:140px 0 0;overflow:hidden;position:relative;isolation:isolate}
+.blob{position:absolute;border-radius:50%;filter:blur(70px);opacity:.35;z-index:-1;animation:drift 14s ease-in-out infinite alternate}
+.b1{width:420px;height:420px;background:#2d5bd1;top:-100px;left:-120px}
+.b2{width:360px;height:360px;background:var(--gold);bottom:60px;right:-100px;opacity:.2;animation-delay:-6s}
+@keyframes drift{to{transform:translate(60px,50px) scale(1.15)}}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background-image:radial-gradient(#ffffff22 1px,transparent 1px);background-size:28px 28px;mask-image:linear-gradient(#000,transparent 85%)}
+.hgrid{display:grid;grid-template-columns:1.05fr .95fr;gap:2rem;align-items:center;padding-bottom:7rem}
+.pill{display:inline-flex;gap:.5rem;align-items:center;border:1px solid #ffffff30;background:#ffffff12;border-radius:999px;padding:.4rem 1rem;font-size:.9rem;color:var(--gold2);margin-bottom:1.4rem}
+.pill i{width:8px;height:8px;border-radius:50%;background:var(--gold);animation:pulse 1.8s infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 8px #e0ac3c00;transform:scale(1.2)}0%{box-shadow:0 0 0 0 #e0ac3c88}}
+.hero h1{font-size:clamp(2.3rem,5.6vw,4.4rem);font-weight:800;letter-spacing:-.03em}
+.hero h1 span{background:linear-gradient(90deg,var(--gold),var(--gold2),var(--gold));background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 5s linear infinite}
+@keyframes shine{to{background-position:200% center}}
+.sub{font-size:1.15rem;color:#c9d3ec;max-width:48ch;margin:1.4rem 0 2rem}
+.cta{display:flex;flex-wrap:wrap;gap:.8rem}
+.scene{position:relative;width:100%}
+.scene svg{width:100%;height:auto;aspect-ratio:560/430;display:block;overflow:visible}
+.chips{display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem;margin-top:.8rem}
+.chip{display:flex;align-items:center;justify-content:center;gap:.4rem;background:#ffffff14;border:1px solid #ffffff2c;border-radius:10px;padding:.4rem .5rem;font-size:.78rem;font-weight:500;line-height:1.2;text-align:center;transition:background .2s,border-color .2s}
+.chip:hover{background:#ffffff24;border-color:var(--gold)}
+.chip .i{color:var(--gold);width:1.1em;height:1.1em}
+.waves{position:absolute;left:0;right:0;bottom:-1px;height:90px;overflow:hidden}
+.waves svg{position:absolute;bottom:0;width:200%;height:100%;animation:wave 14s linear infinite}
+.waves svg+svg{animation-duration:9s;animation-direction:reverse;opacity:.5}
+@keyframes wave{to{transform:translateX(-50%)}}
+@media (max-width:900px){.hgrid{grid-template-columns:1fr;padding-bottom:5rem}.scene{max-width:540px;margin-inline:auto}.hero{padding-top:110px}}
+@media (max-width:520px){.chips{grid-template-columns:1fr 1fr}}
+
+/* marquee */
+.mq{background:var(--navy);color:#fff;overflow:hidden;padding:1.1rem 0;border-block:1px solid #ffffff18}
+.mq div{display:flex;gap:3rem;width:max-content;animation:mq 28s linear infinite}
+.mq span{display:flex;align-items:center;gap:.7rem;font:600 1.05rem var(--head);white-space:nowrap}
+.mq .i{color:var(--gold)}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* cards */
+.grid{display:grid;gap:1.4rem}
+.g4{grid-template-columns:repeat(4,1fr)}.g3{grid-template-columns:repeat(3,1fr)}
+@media (max-width:1000px){.g4{grid-template-columns:1fr 1fr}.g3{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.g4,.g3{grid-template-columns:1fr}}
+.card{position:relative;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:1.8rem;overflow:hidden;transition:transform .3s,border-color .3s,box-shadow .3s}
+.card::before{content:"";position:absolute;inset:0;background:radial-gradient(260px circle at var(--x,50%) var(--y,0),#e0ac3c2e,transparent 70%);opacity:0;transition:opacity .3s}
+.card:hover{transform:translateY(-6px);border-color:var(--gold);box-shadow:0 20px 40px #081a4426}
+.card:hover::before{opacity:1}
+.ic{width:60px;height:60px;border-radius:18px;display:grid;place-items:center;font-size:1.8rem;background:linear-gradient(135deg,var(--navy),var(--navy2));color:var(--gold);margin-bottom:1.1rem;position:relative;transition:transform .4s}
+.card:hover .ic{transform:rotate(-8deg) scale(1.08)}
+.card h3{font-size:1.2rem;color:var(--navy-text);margin-bottom:.4rem}
+.card p{margin:0;color:var(--muted);font-size:.98rem}
+
+.dark{background:linear-gradient(160deg,var(--navy),var(--navy2));color:#fff;overflow:hidden}
+.dark h2{color:#fff}.dark .sh p{color:#c3cde6}
+.dark .card{background:#ffffff0d;border-color:#ffffff22;backdrop-filter:blur(6px)}
+.dark .card h3{color:var(--gold2)}.dark .card p{color:#cdd6ee}
+
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;align-items:center}
+.ticks{list-style:none;padding:0;margin:1.5rem 0 0;display:grid;gap:.7rem}
+.ticks li{display:flex;gap:.7rem;align-items:center;font-weight:500}.ticks .i{color:var(--gold);font-size:1.4rem}
+.big{border-radius:28px;padding:clamp(2rem,5vw,3.2rem);background:linear-gradient(135deg,var(--navy),var(--navy2));color:#fff;position:relative;overflow:hidden}
+.big::after{content:"";position:absolute;width:260px;height:260px;border-radius:50%;border:2px dashed #e0ac3c66;right:-70px;top:-70px;animation:spin 30s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.big em{font:600 1rem var(--body);color:var(--gold2);font-style:italic;display:block;margin-bottom:.6rem}
+.big strong{font:800 clamp(2rem,4.5vw,3.2rem)/1.05 var(--head)}
+@media (max-width:860px){.about{grid-template-columns:1fr}}
+
+/* process */
+.steps{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem;position:relative;counter-reset:s}
+.steps::before{content:"";position:absolute;top:33px;left:10%;right:10%;height:3px;background:#ffffff26}
+.steps::after{content:"";position:absolute;top:33px;left:10%;height:3px;width:0;background:linear-gradient(90deg,var(--gold),var(--gold2));transition:width 2s ease .2s}
+.steps.in::after{width:80%}
+.st{text-align:center;position:relative;z-index:1}
+.st .ic{margin:0 auto 1rem;width:68px;height:68px;border-radius:50%;background:var(--navy);border:3px solid var(--gold)}
+.st h3{font-size:1.05rem;color:#fff}.st p{margin:.3rem 0 0;color:#c3cde6;font-size:.9rem}
+@media (max-width:860px){.steps{grid-template-columns:1fr;gap:1.6rem;padding-left:0}.steps::before{left:33px;right:auto;top:20px;bottom:20px;width:3px;height:auto}.steps::after{display:none}.st{display:grid;grid-template-columns:68px 1fr;text-align:left;gap:0 1.2rem;align-items:center}.st .ic{margin:0;grid-row:span 2}}
+
+/* cta + form */
+.band{background:linear-gradient(120deg,var(--gold),var(--gold2));color:#1a1405;padding:3rem 0}
+.band .wrap{display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center;justify-content:space-between}
+.band h2{color:#1a1405;font-size:clamp(1.6rem,3.5vw,2.4rem)}
+.band .btn{background:var(--navy);color:#fff;box-shadow:none}
+.qg{display:grid;grid-template-columns:.85fr 1.15fr;gap:3rem;align-items:start}
+.contact{list-style:none;padding:0;margin:1.8rem 0 0;display:grid;gap:1rem}
+.contact a{display:flex;gap:1rem;align-items:center;text-decoration:none;font-weight:600;overflow-wrap:anywhere}
+.contact .ic{margin:0;width:48px;height:48px;font-size:1.3rem;border-radius:14px}
+.contact small{display:block;color:var(--muted);font-weight:400}
+form{display:grid;gap:1rem;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:clamp(1.3rem,3vw,2.2rem);box-shadow:0 24px 50px #081a4418}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+label{display:grid;gap:.35rem;font-weight:600;font-size:.92rem}
+input,select,textarea{font:inherit;color:inherit;background:var(--bg);border:1.5px solid var(--line);border-radius:12px;padding:.8rem .95rem;width:100%;transition:border-color .2s,box-shadow .2s}
+input:focus,select:focus,textarea:focus{outline:0;border-color:var(--gold);box-shadow:0 0 0 4px #e0ac3c30}
+textarea{min-height:110px;resize:vertical}
+.err{color:#d6453a;font-size:.82rem;font-weight:500;min-height:1em}
+.note{font-size:.88rem;color:var(--muted);margin:0}
+.ok{display:none;background:#e6f4ea;color:#14532d;border-radius:12px;padding:.9rem 1rem;font-weight:500}
+@media (max-width:900px){.qg{grid-template-columns:1fr}}
+@media (max-width:520px){.row{grid-template-columns:1fr}}
+
+footer{background:var(--navy);color:#c3cde6;padding:2.5rem 0}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1rem;align-items:center}
+footer strong{font:700 1.3rem var(--head);color:#fff}footer em{color:var(--gold2)}
+.wa{position:fixed;right:1.1rem;bottom:calc(1.1rem + env(safe-area-inset-bottom,0px));z-index:55;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;font-size:1.9rem;box-shadow:0 10px 26px #0006;text-decoration:none}
+.wa::after{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:ring 2s infinite}
+@keyframes ring{to{transform:scale(1.6);opacity:0}}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}
+.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}.steps::after{width:80%}}
+</style>
+</head>
+<body>
+<div id="prog"></div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="menu-outline" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></symbol><symbol id="close-outline" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368"/></symbol><symbol id="call-outline" viewBox="0 0 512 512"><path d="M451 374c-15.88-16-54.34-39.35-73-48.76-24.3-12.24-26.3-13.24-45.4.95-12.74 9.47-21.21 17.93-36.12 14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48 5.41-23.23 14.79-36c13.22-18 12.22-21 .92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9 44 119.9 47 108.83 51.6A160.15 160.15 0 0083 65.37C67 76 58.12 84.83 51.91 98.1s-9 44.38 23.07 102.64 54.57 88.05 101.14 134.49S258.5 406.64 310.85 436c64.76 36.27 89.6 29.2 102.91 23s22.18-15 32.83-31a159.09 159.09 0 0013.8-25.8C465 391.17 468 391.17 451 374z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></symbol><symbol id="mail-outline" viewBox="0 0 512 512"><rect x="48" y="96" width="416" height="320" rx="40" ry="40" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M112 160l144 112 144-112"/></symbol><symbol id="globe-outline" viewBox="0 0 512 512"><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path d="M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path d="M117.33 117.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34M394.67 394.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" d="M256 48v416M464 256H48"/></symbol><symbol id="shield-checkmark-outline" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M336 176L225.2 304 176 255.8"/><path d="M463.1 112.37C373.68 96.33 336.71 84.45 256 48c-80.71 36.45-117.68 48.33-207.1 64.37C32.7 369.13 240.58 457.79 256 464c15.42-6.21 223.3-94.87 207.1-351.63z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="time-outline" viewBox="0 0 512 512"><path d="M256 64C150 64 64 150 64 256s86 192 192 192 192-86 192-192S362 64 256 64z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M256 128v144h96"/></symbol><symbol id="people-outline" viewBox="0 0 512 512"><path d="M402 168c-2.93 40.67-33.1 72-66 72s-63.12-31.32-66-72c-3-42.31 26.37-72 66-72s69 30.46 66 72z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M336 304c-65.17 0-127.84 32.37-143.54 95.41-2.08 8.34 3.15 16.59 11.72 16.59h263.65c8.57 0 13.77-8.25 11.72-16.59C463.85 335.36 401.18 304 336 304z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path d="M200 185.94c-2.34 32.48-26.72 58.06-53 58.06s-50.7-25.57-53-58.06C91.61 152.15 115.34 128 147 128s55.39 24.77 53 57.94z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M206 306c-18.05-8.27-37.93-11.45-59-11.45-52 0-102.1 25.85-114.65 76.2-1.65 6.66 2.53 13.25 9.37 13.25H154" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32"/></symbol><symbol id="cash-outline" viewBox="0 0 512 512"><rect x="32" y="80" width="448" height="256" rx="16" ry="16" transform="rotate(180 256 208)" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M64 384h384M96 432h320"/><circle cx="256" cy="208" r="80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M480 160a80 80 0 01-80-80M32 160a80 80 0 0080-80M480 256a80 80 0 00-80 80M32 256a80 80 0 0180 80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="boat-outline" viewBox="0 0 512 512"><path d="M461.93 261.05c-2-4.76-6.71-7.83-11.67-9.49l-187.18-74.48a23.78 23.78 0 00-14.17 0l-187 74.52c-5 1.56-9.83 4.77-11.81 9.53s-2.94 9.37-1 15.08l46.53 119.15a7.46 7.46 0 007.47 4.64c26.69-1.68 50.31-15.23 68.38-32.5a7.66 7.66 0 0110.49 0C201.29 386 227 400 256 400s54.56-14 73.88-32.54a7.67 7.67 0 0110.5 0c18.07 17.28 41.69 30.86 68.38 32.54a7.45 7.45 0 007.46-4.61l46.7-119.16c1.98-4.78.99-10.41-.99-15.18z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path d="M416 473.14a6.84 6.84 0 00-3.56-6c-27.08-14.55-51.77-36.82-62.63-48a10.05 10.05 0 00-12.72-1.51c-50.33 32.42-111.61 32.44-161.95.05a10.09 10.09 0 00-12.82 1.56c-10.77 11.28-35.19 33.3-62.43 47.75a7.15 7.15 0 00-3.89 5.73 6.73 6.73 0 007.92 7.15c20.85-4.18 41-13.68 60.2-23.83a8.71 8.71 0 018-.06A185.14 185.14 0 00340 456a8.82 8.82 0 018.09.06c19.1 10 39.22 19.59 60 23.8a6.72 6.72 0 007.95-6.71z"/><path d="M320 96V72a24.07 24.07 0 00-24-24h-80a24.07 24.07 0 00-24 24v24M416 233v-89a48.14 48.14 0 00-48-48H144a48.14 48.14 0 00-48 48v92M256 183.6v212.85" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="cube-outline" viewBox="0 0 512 512"><path d="M448 341.37V170.61A32 32 0 00432.11 143l-152-88.46a47.94 47.94 0 00-48.24 0L79.89 143A32 32 0 0064 170.61v170.76A32 32 0 0079.89 369l152 88.46a48 48 0 0048.24 0l152-88.46A32 32 0 00448 341.37z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M69 153.99l187 110 187-110M256 463.99v-200"/></symbol><symbol id="car-sport-outline" viewBox="0 0 512 512"><path d="M469.71 234.6c-7.33-9.73-34.56-16.43-46.08-33.94s-20.95-55.43-50.27-70S288 112 256 112s-88 4-117.36 18.63-38.75 52.52-50.27 70-38.75 24.24-46.08 33.97S29.8 305.84 32.94 336s9 48 9 48h86c14.08 0 18.66-5.29 47.46-8 31.6-3 62.6-4 80.6-4s50 1 81.58 4c28.8 2.73 33.53 8 47.46 8h85s5.86-17.84 9-48-2.04-91.67-9.33-101.4zM400 384h56v16h-56zM56 384h56v16H56z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M364.47 309.16c-5.91-6.83-25.17-12.53-50.67-16.35S279 288 256.2 288s-33.17 1.64-57.61 4.81-42.79 8.81-50.66 16.35C136.12 320.6 153.42 333.44 167 335c13.16 1.5 39.47.95 89.31.95s76.15.55 89.31-.95c13.56-1.65 29.62-13.6 18.85-25.84zM431.57 243.05a3.23 3.23 0 00-3.1-3c-11.81-.42-23.8.42-45.07 6.69a93.88 93.88 0 00-30.08 15.06c-2.28 1.78-1.47 6.59 1.39 7.1a455.32 455.32 0 0052.82 3.1c10.59 0 21.52-3 23.55-12.44a52.41 52.41 0 00.49-16.51zM80.43 243.05a3.23 3.23 0 013.1-3c11.81-.42 23.8.42 45.07 6.69a93.88 93.88 0 0130.08 15.06c2.28 1.78 1.47 6.59-1.39 7.1a455.32 455.32 0 01-52.82 3.1c-10.59 0-21.52-3-23.55-12.44a52.41 52.41 0 01-.49-16.51z"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M432 192h16M64 192h16M78 211s46.35-12 178-12 178 12 178 12"/></symbol><symbol id="briefcase-outline" viewBox="0 0 512 512"><rect x="32" y="128" width="448" height="320" rx="48" ry="48" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path d="M144 128V96a32 32 0 0132-32h160a32 32 0 0132 32v32M480 240H32M320 240v24a8 8 0 01-8 8H200a8 8 0 01-8-8v-24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="layers-outline" viewBox="0 0 512 512"><path d="M434.8 137.65l-149.36-68.1c-16.19-7.4-42.69-7.4-58.88 0L77.3 137.65c-17.6 8-17.6 21.09 0 29.09l148 67.5c16.89 7.7 44.69 7.7 61.58 0l148-67.5c17.52-8 17.52-21.1-.08-29.09zM160 308.52l-82.7 37.11c-17.6 8-17.6 21.1 0 29.1l148 67.5c16.89 7.69 44.69 7.69 61.58 0l148-67.5c17.6-8 17.6-21.1 0-29.1l-79.94-38.47" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M160 204.48l-82.8 37.16c-17.6 8-17.6 21.1 0 29.1l148 67.49c16.89 7.7 44.69 7.7 61.58 0l148-67.49c17.7-8 17.7-21.1.1-29.1L352 204.48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="document-text-outline" viewBox="0 0 512 512"><path d="M416 221.25V416a48 48 0 01-48 48H144a48 48 0 01-48-48V96a48 48 0 0148-48h98.75a32 32 0 0122.62 9.37l141.26 141.26a32 32 0 019.37 22.62z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/><path d="M256 56v120a32 32 0 0032 32h120M176 288h160M176 368h160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="home-outline" viewBox="0 0 512 512"><path d="M80 212v236a16 16 0 0016 16h96V328a24 24 0 0124-24h80a24 24 0 0124 24v136h96a16 16 0 0016-16V212" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M480 256L266.89 52c-5-5.28-16.69-5.34-21.78 0L32 256M400 179V64h-48v69" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="logo-whatsapp" viewBox="0 0 512 512"><path d="M414.73 97.1A222.14 222.14 0 00256.94 32C134 32 33.92 131.58 33.87 254a220.61 220.61 0 0029.78 111L32 480l118.25-30.87a223.63 223.63 0 00106.6 27h.09c122.93 0 223-99.59 223.06-222A220.18 220.18 0 00414.73 97.1zM256.94 438.66h-.08a185.75 185.75 0 01-94.36-25.72l-6.77-4-70.17 18.32 18.73-68.09-4.41-7A183.46 183.46 0 0171.53 254c0-101.73 83.21-184.5 185.48-184.5a185 185 0 01185.33 184.64c-.04 101.74-83.21 184.52-185.4 184.52zm101.69-138.19c-5.57-2.78-33-16.2-38.08-18.05s-8.83-2.78-12.54 2.78-14.4 18-17.65 21.75-6.5 4.16-12.07 1.38-23.54-8.63-44.83-27.53c-16.57-14.71-27.75-32.87-31-38.42s-.35-8.56 2.44-11.32c2.51-2.49 5.57-6.48 8.36-9.72s3.72-5.56 5.57-9.26.93-6.94-.46-9.71-12.54-30.08-17.18-41.19c-4.53-10.82-9.12-9.35-12.54-9.52-3.25-.16-7-.2-10.69-.2a20.53 20.53 0 00-14.86 6.94c-5.11 5.56-19.51 19-19.51 46.28s20 53.68 22.76 57.38 39.3 59.73 95.21 83.76a323.11 323.11 0 0031.78 11.68c13.35 4.22 25.5 3.63 35.1 2.2 10.71-1.59 33-13.42 37.63-26.38s4.64-24.06 3.25-26.37-5.11-3.71-10.69-6.48z" fill-rule="evenodd"/></symbol><symbol id="arrow-forward-outline" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="M268 112l144 144-144 144M392 256H100"/></symbol><symbol id="send-outline" viewBox="0 0 512 512"><path d="M470.3 271.15L43.16 447.31a7.83 7.83 0 01-11.16-7V327a8 8 0 016.51-7.86l247.62-47c17.36-3.29 17.36-28.15 0-31.44l-247.63-47a8 8 0 01-6.5-7.85V72.59c0-5.74 5.88-10.26 11.16-8L470.3 241.76a16 16 0 010 29.39z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol><symbol id="location-outline" viewBox="0 0 512 512"><path d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0025.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></symbol></svg>
+
+<header id="hd">
+ <div class="wrap bar">
+  <a class="brand" href="#top" aria-label="Africa Bridge Logistics home">
+   <svg class="mark" viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="17" r="13" fill="#13306f" stroke="#e0ac3c" stroke-width="2"/><path d="M17 8c3-1 6 0 7 2l3 1-1 4 2 3-3 6-3 3-3-4-1-5-3-2 1-4z" fill="#e0ac3c"/><path d="M2 33h36M7 33V25M33 33V25M7 25Q20 36 33 25" stroke="#fff" stroke-width="2" fill="none"/></svg>
+   <span>Africa Bridge<small>LOGISTICS</small></span>
+  </a>
+  <button class="menu" id="menu" aria-expanded="false" aria-controls="nav" aria-label="Toggle menu"><svg class="i"><use href="#menu-outline"/></svg></button>
+  <nav id="nav" aria-label="Main"><ul>
+   <li><a href="#about">About</a></li><li><a href="#ship">What we ship</a></li><li><a href="#services">Services</a></li><li><a href="#process">How it works</a></li>
+   <li><a class="btn" href="#quote">Get a free quote</a></li>
+  </ul></nav>
+ </div>
+</header>
+
+<main id="top">
+<div class="hero">
+ <div class="blob b1"></div><div class="blob b2"></div>
+ <div class="wrap hgrid">
+  <div>
+   <span class="pill"><i></i>Bridging Borders. Delivering Trust.</span>
+   <h1>Shipping &amp; logistics between the <span>U.S. and Africa</span></h1>
+   <p class="sub">We make it easy, affordable, and reliable to send what matters most to your loved ones and business in Ghana and across Africa.</p>
+   <div class="cta">
+    <a class="btn" href="#quote">Get a free quote <svg class="i"><use href="#arrow-forward-outline"/></svg></a>
+    <a class="btn ghost" href="tel:+18609904395"><svg class="i"><use href="#call-outline"/></svg>(860) 990-4395</a>
+   </div>
+  </div>
+  <div class="scene" aria-label="Cargo route from the U.S.A. to Ghana">
+   <svg viewBox="0 0 560 430" role="img" aria-label="Plane and ship travelling from the U.S.A. to Ghana">
+    <defs><linearGradient id="gl" x1="0" x2="1"><stop offset="0" stop-color="#e0ac3c" stop-opacity="0"/><stop offset=".5" stop-color="#f5cd6b"/><stop offset="1" stop-color="#e0ac3c" stop-opacity="0"/></linearGradient></defs>
+    <g fill="none" stroke="#ffffff1c"><circle cx="280" cy="215" r="110"/><circle cx="280" cy="215" r="170"/><circle cx="280" cy="215" r="230" stroke-dasharray="4 8"/></g>
+    <path id="air" d="M70 250Q275 20 490 280" fill="none" stroke="url(#gl)" stroke-width="2.5" stroke-dasharray="7 9"><animate attributeName="stroke-dashoffset" from="0" to="-32" dur="1.6s" repeatCount="indefinite"/></path>
+    <path id="sea" d="M80 275Q280 380 480 300" fill="none" stroke="#6ea0ff88" stroke-width="2.5" stroke-dasharray="3 8"><animate attributeName="stroke-dashoffset" from="0" to="-22" dur="2s" repeatCount="indefinite"/></path>
+    <g><circle cx="70" cy="250" r="8" fill="#e0ac3c"/><circle cx="70" cy="250" r="8" fill="none" stroke="#e0ac3c"><animate attributeName="r" values="8;34" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="2.4s" repeatCount="indefinite"/></circle><text x="70" y="288" fill="#fff" font-family="Sora,sans-serif" font-weight="700" font-size="17" text-anchor="middle">U.S.A.</text></g>
+    <g><circle cx="490" cy="285" r="8" fill="#e0ac3c"/><circle cx="490" cy="285" r="8" fill="none" stroke="#e0ac3c"><animate attributeName="r" values="8;34" dur="2.4s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></circle><text x="490" y="323" fill="#fff" font-family="Sora,sans-serif" font-weight="700" font-size="17" text-anchor="middle">Ghana</text></g>
+    <g><path d="M16 0L-6-9H-11L-4 0L-11 9H-6Z" fill="#fff"/><path d="M2 0L-8-18H-4L8-3ZM2 0L-8 18H-4L8 3Z" fill="#cfd9f5"/><animateMotion dur="7s" repeatCount="indefinite" rotate="auto"><mpath href="#air"/></animateMotion></g>
+    <g><path d="M-22-2H22L16 10H-16Z" fill="#fff"/><rect x="-16" y="-10" width="9" height="8" fill="#e0ac3c"/><rect x="-6" y="-10" width="9" height="8" fill="#2d5bd1"/><rect x="4" y="-10" width="9" height="8" fill="#d6453a"/><animateMotion dur="11s" repeatCount="indefinite"><mpath href="#sea"/></animateMotion></g>
+   </svg>
+   <div class="chips"><div class="chip"><svg class="i"><use href="#layers-outline"/></svg>Barrels</div>
+   <div class="chip"><svg class="i"><use href="#car-sport-outline"/></svg>Vehicles</div>
+   <div class="chip"><svg class="i"><use href="#cube-outline"/></svg>Boxes</div>
+   <div class="chip"><svg class="i"><use href="#briefcase-outline"/></svg>Commercial cargo</div></div>
+  </div>
+ </div>
+ <div class="waves" aria-hidden="true">
+  <svg viewBox="0 0 1200 90" preserveAspectRatio="none"><path d="M0 40C100 10 200 70 300 40S500 10 600 40 800 70 900 40 1100 10 1200 40V90H0Z" fill="#e0ac3c" fill-opacity=".35"/></svg>
+  <svg viewBox="0 0 1200 90" preserveAspectRatio="none"><path d="M0 50C100 20 200 80 300 50S500 20 600 50 800 80 900 50 1100 20 1200 50V90H0Z" fill="#f4f6fb"/></svg>
+ </div>
+</div>
+
+<div class="mq" aria-hidden="true"><div>
+ <span><svg class="i"><use href="#layers-outline"/></svg>Barrel shipping</span><span><svg class="i"><use href="#cube-outline"/></svg>Box &amp; package shipping</span><span><svg class="i"><use href="#car-sport-outline"/></svg>Vehicle shipping</span><span><svg class="i"><use href="#briefcase-outline"/></svg>Commercial cargo</span><span><svg class="i"><use href="#document-text-outline"/></svg>Customs clearance</span><span><svg class="i"><use href="#home-outline"/></svg>Door-to-door delivery</span>
+ <span><svg class="i"><use href="#layers-outline"/></svg>Barrel shipping</span><span><svg class="i"><use href="#cube-outline"/></svg>Box &amp; package shipping</span><span><svg class="i"><use href="#car-sport-outline"/></svg>Vehicle shipping</span><span><svg class="i"><use href="#briefcase-outline"/></svg>Commercial cargo</span><span><svg class="i"><use href="#document-text-outline"/></svg>Customs clearance</span><span><svg class="i"><use href="#home-outline"/></svg>Door-to-door delivery</span>
+</div></div>
+
+<section id="about"><div class="wrap about">
+ <div class="rv">
+  <h2>Your trusted partner for shipping to Ghana and beyond</h2>
+  <p class="lead" style="margin-top:1rem">At Africa Bridge Logistics, we make it easy, affordable, and reliable to send what matters most to your loved ones and business in Ghana and across Africa.</p>
+  <ul class="ticks">
+   <li><svg class="i"><use href="#shield-checkmark-outline"/></svg>Safe &amp; secure: your cargo is protected every step of the way</li>
+   <li><svg class="i"><use href="#time-outline"/></svg>Timely delivery: on-time shipping, every time</li>
+   <li><svg class="i"><use href="#people-outline"/></svg>Reliable service: honest, transparent, and customer focused</li>
+   <li><svg class="i"><use href="#cash-outline"/></svg>Competitive rates: quality service at affordable prices</li>
+  </ul>
+ </div>
+ <div class="big rv"><em>We don’t just ship cargo,</em><strong>we build bridges.</strong></div>
+</div></section>
+
+<section id="ship" style="padding-top:0"><div class="wrap">
+ <div class="sh rv"><h2>What we ship</h2><p>From a single barrel to a full commercial load.</p></div>
+ <div class="grid g4 rv">
+  <article class="card"><div class="ic"><svg class="i"><use href="#layers-outline"/></svg></div><h3>Barrels</h3><p>Send 20ft &amp; 40ft barrels with ease to Ghana and beyond.</p></article>
+  <article class="card"><div class="ic"><svg class="i"><use href="#cube-outline"/></svg></div><h3>Boxes &amp; packages</h3><p>Household items, personal effects, electronics, and more.</p></article>
+  <article class="card"><div class="ic"><svg class="i"><use href="#car-sport-outline"/></svg></div><h3>Vehicles</h3><p>Cars, trucks, SUVs, and heavy equipment shipped safely and efficiently.</p></article>
+  <article class="card"><div class="ic"><svg class="i"><use href="#briefcase-outline"/></svg></div><h3>Commercial cargo</h3><p>Reliable solutions for businesses of all sizes.</p></article>
+ </div>
+</div></section>
+
+<section id="services" class="dark"><div class="wrap">
+ <div class="sh rv"><h2>Our services</h2><p>Everything your shipment needs, handled by one team.</p></div>
+ <div class="grid g3 rv">
+  <article class="card"><div class="ic"><svg class="i"><use href="#layers-outline"/></svg></div><h3>Barrel shipping</h3><p>Send 20ft &amp; 40ft barrels with ease to Ghana and beyond.</p></article>
+  <article class="card"><div class="ic"><svg class="i"><use href="#cube-outline"/></svg></div><h3>Box &amp; package shipping</h3><p>Household items, personal effects, electronics, and more.</p></article>
+  <article class="card"><div class="ic"><svg class="i"><use href="#car-sport-outline"/></svg></div><h3>Vehicle shipping</h3><p>Cars, trucks, SUVs, and heavy equipment shipped safely and efficiently.</p></article>
+  <article class="card"><div class="ic"><svg class="i"><use href="#boat-outline"/></svg></div><h3>Commercial cargo</h3><p>Reliable solutions for businesses of all sizes.</p></article>
+  <article class="card"><div class="ic"><svg class="i"><use href="#document-text-outline"/></svg></div><h3>Customs clearance</h3><p>We handle the paperwork so your cargo clears smoothly.</p></article>
+  <article class="card"><div class="ic"><svg class="i"><use href="#home-outline"/></svg></div><h3>Door-to-door delivery</h3><p>From pickup in the U.S. to delivery at your doorstep.</p></article>
+ </div>
+</div></section>
+
+<section id="process" style="background:var(--navy)"><div class="wrap">
+ <div class="sh rv" style="margin-inline:auto;text-align:center"><h2 style="color:#fff">How it works</h2><p style="color:#c3cde6">From U.S. pickup to your doorstep in Ghana.</p></div>
+ <div class="steps rv" id="steps">
+  <div class="st"><div class="ic"><svg class="i"><use href="#call-outline"/></svg></div><h3>Request a quote</h3><p>Tell us what you’re sending.</p></div>
+  <div class="st"><div class="ic"><svg class="i"><use href="#location-outline"/></svg></div><h3>U.S. pickup</h3><p>We collect your cargo.</p></div>
+  <div class="st"><div class="ic"><svg class="i"><use href="#boat-outline"/></svg></div><h3>Ship to Africa</h3><p>Secure transit to Ghana and beyond.</p></div>
+  <div class="st"><div class="ic"><svg class="i"><use href="#document-text-outline"/></svg></div><h3>Customs clearance</h3><p>We handle the paperwork.</p></div>
+  <div class="st"><div class="ic"><svg class="i"><use href="#home-outline"/></svg></div><h3>Doorstep delivery</h3><p>Delivered to your door.</p></div>
+ </div>
+</div></section>
+
+<div class="band"><div class="wrap">
+ <h2>Ready to send? Get a free quote today.</h2>
+ <a class="btn" href="#quote">Request a quote <svg class="i"><use href="#arrow-forward-outline"/></svg></a>
+</div></div>
+
+<section id="quote"><div class="wrap qg">
+ <div class="rv">
+  <h2>Let’s build your bridge</h2>
+  <p class="lead" style="margin-top:1rem">Tell us what you’re sending and where it’s going. We’ll reply with a price and next steps.</p>
+  <ul class="contact">
+   <li><a href="tel:+18609904395"><span class="ic"><svg class="i"><use href="#call-outline"/></svg></span><span><small>Call us</small>(860) 990-4395</span></a></li>
+   <li><a href="mailto:African@africanbridgesolution.org"><span class="ic"><svg class="i"><use href="#mail-outline"/></svg></span><span><small>Email</small>African@africanbridgesolution.org</span></a></li>
+   <li><a href="https://www.africabridgelogistics.com"><span class="ic"><svg class="i"><use href="#globe-outline"/></svg></span><span><small>Website</small>www.africabridgelogistics.com</span></a></li>
+  </ul>
+ </div>
+ <form id="qf" class="rv" novalidate>
+  <div class="row">
+   <label>Full name<input id="name" autocomplete="name"><span class="err" data-for="name"></span></label>
+   <label>Phone<input id="phone" type="tel" autocomplete="tel"><span class="err" data-for="phone"></span></label>
+  </div>
+  <div class="row">
+   <label>Email<input id="email" type="email" autocomplete="email"><span class="err" data-for="email"></span></label>
+   <label>What are you shipping?<select id="type"><option>Barrels</option><option>Boxes &amp; packages</option><option>Vehicle</option><option>Commercial cargo</option><option>Not sure yet</option></select></label>
+  </div>
+  <label>Destination<input id="dest" value="Ghana"></label>
+  <label>Details<textarea id="msg" placeholder="Quantity, size, pickup city, preferred timing"></textarea></label>
+  <button class="btn" type="submit" style="justify-content:center">Send quote request <svg class="i"><use href="#send-outline"/></svg></button>
+  <p class="note">Sending opens WhatsApp with your request ready to send to our team.</p>
+  <div class="ok" id="ok" role="status">Thanks. WhatsApp should now be open. If it didn’t, call (860) 990-4395.</div>
+ </form>
+</div></section>
+</main>
+
+<footer><div class="wrap foot">
+ <div><strong>Africa Bridge Logistics</strong><br>Bridging Borders. Delivering Trust.</div>
+ <em>We don’t just ship cargo, we build bridges.</em>
+ <div>&copy; <span id="yr">2026</span> Africa Bridge Logistics</div>
+</div></footer>
+<a class="wa" href="https://wa.me/18609904395" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg class="i"><use href="#logo-whatsapp"/></svg></a>
+
+<script>
+(function(){
+ var $=function(s){return document.querySelector(s)},hd=$('#hd'),nav=$('#nav'),menu=$('#menu'),prog=$('#prog');
+ function onScroll(){
+  hd.classList.toggle('s',scrollY>30);
+  var h=document.documentElement.scrollHeight-innerHeight;prog.style.width=(h>0?scrollY/h*100:0)+'%';
+ }
+ addEventListener('scroll',onScroll,{passive:true});onScroll();
+ function close(){nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}
+ menu.addEventListener('click',function(){menu.setAttribute('aria-expanded',nav.classList.toggle('open'))});
+ nav.addEventListener('click',function(e){if(e.target.closest('a'))close()});
+ $('#yr').textContent=new Date().getFullYear();
+ var rm=matchMedia('(prefers-reduced-motion:reduce)').matches;
+ if(rm){document.querySelectorAll('svg').forEach(function(s){if(s.pauseAnimations)s.pauseAnimations()})}
+ var els=document.querySelectorAll('.rv,#steps');
+ if('IntersectionObserver' in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
+  els.forEach(function(el){io.observe(el)});
+ }else els.forEach(function(el){el.classList.add('in')});
+ document.querySelectorAll('.card').forEach(function(c){
+  c.addEventListener('pointermove',function(e){var r=c.getBoundingClientRect();c.style.setProperty('--x',e.clientX-r.left+'px');c.style.setProperty('--y',e.clientY-r.top+'px')});
+ });
+ var form=$('#qf');
+ function err(k,t){form.querySelector('[data-for="'+k+'"]').textContent=t}
+ form.addEventListener('submit',function(e){
+  e.preventDefault();
+  var f=function(id){return document.getElementById(id).value.trim()},ok=true;
+  ['name','phone','email'].forEach(function(k){err(k,'')});
+  if(!f('name')){err('name','Enter your name.');ok=false}
+  if(f('phone').replace(/\D/g,'').length<7){err('phone','Enter a valid phone number.');ok=false}
+  if(!/^\S+@\S+\.\S+$/.test(f('email'))){err('email','Enter a valid email address.');ok=false}
+  if(!ok)return;
+  var t='Hello Africa Bridge Logistics, I would like a free quote.\nName: '+f('name')+'\nPhone: '+f('phone')+'\nEmail: '+f('email')+'\nShipping: '+$('#type').value+'\nDestination: '+f('dest')+'\nDetails: '+(f('msg')||'N/A');
+  window.open('https://wa.me/18609904395?text='+encodeURIComponent(t),'_blank','noopener');
+  $('#ok').style.display='block';form.reset();$('#dest').value='Ghana';
+ });
+})();
+</script>
+</body>
+</html>
